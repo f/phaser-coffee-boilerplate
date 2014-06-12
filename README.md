@@ -26,6 +26,31 @@ This is a simple JSON exporting JS file. So you can put some logic if you need.
 
 This is the main logic of your game. Everything happens here.
 
+```cofeescript
+config = require './config.coffee'
+
+class State
+
+  constructor: (game)->
+
+  preload: ->
+    # Preload Stage
+    @game.stage = $.extend @game.stage, config.stage
+    
+    # Preload all images from config file
+    @game.load.image imageName, path for imageName, path of config.images
+
+  create: ->
+  
+    # Create world.
+
+  update: ->
+
+    # Living world.
+
+module.exports = State
+```
+
 Have fun! :)
 
 [1]: https://github.com/demircancelebi
