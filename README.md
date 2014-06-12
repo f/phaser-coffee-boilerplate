@@ -26,7 +26,7 @@ This is a simple JSON exporting JS file. So you can put some logic if you need.
 
 This is the main logic of your game. Everything happens here.
 
-```cofeescript
+```coffeescript
 config = require './config.coffee'
 
 class State
