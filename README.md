@@ -9,6 +9,7 @@ To start using Phaser with CoffeeScript easily,
 git clone https://github.com/f/phaser-coffee-boilerplate my-game
 cd my-game
 bower install
+npm install
 grunt
 ```
 
