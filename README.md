@@ -8,9 +8,7 @@ To start using Phaser with CoffeeScript easily,
 ```bash
 git clone https://github.com/f/phaser-coffee-boilerplate my-game
 cd my-game
-bower install
-npm install
-grunt
+npm start
 ```
 
 ## main.coffee
@@ -36,12 +34,12 @@ class State
   preload: ->
     # Preload Stage
     @game.stage = $.extend @game.stage, config.stage
-    
+
     # Preload all images from config file
     @game.load.image imageName, path for imageName, path of config.images
 
   create: ->
-  
+
     # Create world.
 
   update: ->
