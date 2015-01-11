@@ -1,5 +1,8 @@
 {
   "name": "phaser-coffee-boilerplate",
+  "scripts": {
+    "start": "npm install && bower install && grunt"
+  },
   "devDependencies": {
     "browserify": "^4.1.9",
     "coffeeify": "^0.6.0",
